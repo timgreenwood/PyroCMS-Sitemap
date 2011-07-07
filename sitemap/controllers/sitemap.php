@@ -1,11 +1,11 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 /**
  *
- * The galleries module enables users to create albums, upload photos and manage their existing albums.
+ * The sitemap module enables users to view html and xml sitemaps for the content on their site.
  *
- * @author 		PyroCMS Dev Team
+ * @author 		Tim Greenwood
  * @package 	PyroCMS
- * @subpackage 	Gallery Module
+ * @subpackage 	Sitemap Module
  * @category 	Modules
  * @license 	Apache License v2.0
  */
@@ -14,7 +14,7 @@ class Sitemap extends Public_Controller
 	/**
 	 * Constructor method
 	 *
-	 * @author PyroCMS Dev Team
+	 * @author Tim Greenwood
 	 * @access public
 	 * @return void
 	 */

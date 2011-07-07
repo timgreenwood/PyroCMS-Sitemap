@@ -2,11 +2,11 @@
 
 /**
  *
- * The galleries module enables users to create albums, upload photos and manage their existing albums.
+ * The sitemap module enables users to view html and xml sitemaps for the content on their site.
  *
- * @author 		Yorick Peterse - PyroCMS Dev Team
+ * @author 		Tim Greenwood
  * @package 	PyroCMS
- * @subpackage 	Gallery Module
+ * @subpackage 	Sitemap Module
  * @category 	Modules
  * @license 	Apache License v2.0
  */
