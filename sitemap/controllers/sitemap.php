@@ -22,6 +22,9 @@ class Sitemap extends Public_Controller
 	{
 		parent::__construct();
 		
+		// Give erro in pyrocms 2.1.5 and 2.2.0
+		$this->data = new stdClass;
+		
 		// Load the required classes
 		$this->load->model('Sitemap_m');
 		$this->load->helper('html');
