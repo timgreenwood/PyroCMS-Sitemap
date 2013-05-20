@@ -66,7 +66,8 @@ class Sitemap_m extends MY_Model {
 		if (count($blog_cats)) {
 			foreach($blog_cats as $cat) {
 				$this_cat = array();
-				$this_cat[] = array('title'=>$cat->title,'link'=>site_url('blog/category/'.$cat->title));
+				// $cat->slug and not $cat->title because if i want give some diferente name in slug ?!
+				$this_cat[] = array('title'=>$cat->title,'link'=>site_url('blog/category/'.$cat->slug));
 				// get articles from this category
 				$this->db->select('b.*')->from('blog as b')->where('category_id',$cat->id)->where('status','live');
 				$blog_cat_posts = $this->db->get()->result();
